@@ -1,20 +1,17 @@
 import { Helmet } from "react-helmet";
 import GlobalStyles from "../../assets/styles/GlobalStyles";
-import favIcon from "../../assets/images/fav_icon.ico"
+import favIcon from "../../assets/images/fav_icon.ico";
 const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
         {/* meta tag*/}
         <meta charset="utf-8" />
-        <title>
-          {" "}
-          Bithu - NFT Minting/Collection Landing Page react.js Template
-        </title>
+        <title> Old Bava Society</title>
         <meta name="description" content="" />
         <link rel="shortcut icon" type="image/x-icon" href={favIcon} />
         {/* responsive tag */}
-        <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
         {/* Bootstrap Latest compiled and minified CSS  */}
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -39,9 +36,9 @@ const Layout = ({ children }) => {
       </Helmet>
 
       {/* global styles */}
-      <GlobalStyles /> 
+      <GlobalStyles />
 
-      {children} 
+      {children}
     </>
   );
 };
