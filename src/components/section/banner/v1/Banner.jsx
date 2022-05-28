@@ -10,7 +10,7 @@ import characterThumb from "../../../../assets/images/nft/Character1.jpeg";
 import mintLiveDownArrow from "../../../../assets/images/nft/mint_live_down_arrow.svg";
 import mintLiveText from "../../../../assets/images/nft/mint_live_text.png";
 import homeImageBG from "../../../../assets/images/nft/home_img_bg.png";
-import sample from "../../../../assets/images/PROMO.mp4";
+// import sample from "../../../../assets/images/PROMO.mp4";
 
 const Banner = () => {
   const { mintModalHandle } = useModal();
@@ -82,7 +82,10 @@ const Banner = () => {
                 </div>
                 <div className="bithu_v1_baner_right_img">
                   <video className="videoTag" autoPlay loop muted width={450}>
-                    <source src={sample} type="video/mp4" />
+                    <source
+                      src="https://opentreenftcollections.s3.eu-west-3.amazonaws.com/PROMO.mp4"
+                      type="video/mp4"
+                    />
                   </video>
                 </div>
               </div>
