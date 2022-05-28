@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
       <Helmet>
         {/* meta tag*/}
         <meta charset="utf-8" />
-        <title> Old Bava Society</title>
+        <title>Bava Old Society</title>
         <meta name="description" content="" />
         <link rel="shortcut icon" type="image/x-icon" href={favIcon} />
         {/* responsive tag */}
