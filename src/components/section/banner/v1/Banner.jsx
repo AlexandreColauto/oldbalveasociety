@@ -36,9 +36,9 @@ const Banner = () => {
 
               <h3>
                 <span className="count">
-                  <Counter end={5555} duration={5555} />
+                  {/* <Counter end={5555} duration={5555} /> */} 0
                 </span>{" "}
-                / 5555 Minted
+                / 10000 Minted
               </h3>
               <div className="banner_buttons">
                 <Button lg variant="outline" onClick={() => mintModalHandle()}>
@@ -50,13 +50,13 @@ const Banner = () => {
                     Wishlist now
                   </Button>
                 ) : (
-                  <Button lg disabled variant="outline">
+                  <Button lg disabled variant="mint">
                     ❤️
                   </Button>
                 )}
               </div>
               <div className="coin-info">
-                <span> Price 0.5 BNB + gas</span>
+                <span> Price TBA ETH + gas</span>
                 <span>
                   {/* MINT IS LIVE{" "} */}
                   <span className="highlighted">MINT 25 JUN</span>
