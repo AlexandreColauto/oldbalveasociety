@@ -32,7 +32,7 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="bithu_v1_baner_left">
-              <h2>Your next big score in nfts</h2>
+              <h2>Your next big score in nfts 👀</h2>
 
               <h3>
                 <span className="count">

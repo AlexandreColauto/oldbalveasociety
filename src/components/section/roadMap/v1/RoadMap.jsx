@@ -62,6 +62,7 @@ const RoadMap = () => {
                     </div>
                     <h4>{item.subtitle}</h4>
                     <p>{item.text}</p>
+                    <p>{item.text2}</p>
                   </div>
                 </SliderItem>
               ))}

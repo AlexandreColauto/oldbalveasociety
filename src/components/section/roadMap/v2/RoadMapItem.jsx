@@ -1,4 +1,4 @@
-const RoadMapItem = ({ id, icon, title, text }) => {
+const RoadMapItem = ({ id, icon, title, text, text2 }) => {
   return (
     <div
       className={
@@ -16,6 +16,7 @@ const RoadMapItem = ({ id, icon, title, text }) => {
           </span>
         </h3>
         <p>{text}</p>
+        <p>{text2}</p>
       </div>
     </div>
   );

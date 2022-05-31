@@ -25,7 +25,6 @@ const HomeV1 = () => {
       <HowToMint />
       <About />
       <RoadMap />
-      <Team />
       <FAQ />
       <Footer />
     </Layout>

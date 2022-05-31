@@ -17,11 +17,11 @@ const data = [
   },
   {
     title: "ARE THE NFT'S AVAILABLE GLOBALLY?",
-    text: "Yes, the Bavos are available in global markets where users have access to crypto wallets. ",
+    text: "Yes, the Bavos are available in global markets where users have access to crypto wallets",
   },
   {
     title: "DO B.O.S. TEAM SEND DM'S?",
-    text: "No, any dm you receive is fake.",
+    text: "No, any dm you receive is fake",
   },
 ];
 

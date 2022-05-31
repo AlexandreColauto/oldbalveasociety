@@ -4,12 +4,14 @@
 // import characterThumb4 from "../../images/nft/carousel_avater4.png";
 // import characterThumb5 from "../../images/nft/carousel_avater5.png";
 // import characterThumb6 from "../../images/nft/carousel_avater6.png";
-import characterThumb1 from "../../images/nft/nft.png";
-import characterThumb2 from "../../images/nft/nft.png";
-import characterThumb3 from "../../images/nft/nft.png";
-import characterThumb4 from "../../images/nft/nft.png";
-import characterThumb5 from "../../images/nft/nft.png";
-import characterThumb6 from "../../images/nft/nft.png";
+import characterThumb1 from "../../images/nft/nft1.jpeg";
+import characterThumb2 from "../../images/nft/nft2.jpeg";
+import characterThumb3 from "../../images/nft/nft3.jpeg";
+import characterThumb4 from "../../images/nft/nft4.jpeg";
+import characterThumb5 from "../../images/nft/nft5.jpeg";
+import characterThumb6 from "../../images/nft/nft6.jpeg";
+import characterThumb7 from "../../images/nft/nft7.jpeg";
+import characterThumb8 from "../../images/nft/nft8.jpeg";
 
 const data = [
   {
@@ -31,13 +33,10 @@ const data = [
     thumb: characterThumb6,
   },
   {
-    thumb: characterThumb3,
+    thumb: characterThumb7,
   },
   {
-    thumb: characterThumb1,
-  },
-  {
-    thumb: characterThumb5,
+    thumb: characterThumb8,
   },
 ];
 

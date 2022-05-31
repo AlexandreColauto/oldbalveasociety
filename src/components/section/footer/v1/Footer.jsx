@@ -4,7 +4,7 @@ import { footerLinksV1 } from "../../../../assets/data/insiteLinks";
 import footerLogo from "../../../../assets/images/LogoFooter.png";
 import backToTopIcon from "../../../../assets/images/icon/back_to_top.svg";
 
-import characterShape from "../../../../assets/images/nft/nft.png";
+import characterShape from "../../../../assets/images/nft/nft7_1.png";
 import footerShapesLeft from "../../../../assets/images/icon/footer_shapes_left.png";
 import footerShapesRight from "../../../../assets/images/icon/footer_shapes_right.png";
 

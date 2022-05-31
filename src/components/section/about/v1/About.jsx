@@ -3,8 +3,8 @@ import SectionTitle from "../../../../common/sectionTitle";
 import AboutInfoCardList from "../aboutInfoCardList";
 
 import data from "../../../../assets/data/about/aboutv1";
-import aboutThumb1 from "../../../../assets/images/nft/1.jpeg";
-import aboutThumb2 from "../../../../assets/images/nft/2.jpeg";
+import aboutThumb1 from "../../../../assets/images/nft/nft8.jpeg";
+import aboutThumb2 from "../../../../assets/images/nft/nft4.jpeg";
 import AboutStyleWrapper from "./About.style";
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
         <div className="row flex-row-reverse">
           <div className="col-md-6">
             <div className="v1_about_us_right_sect">
-              <SectionTitle title="ABOUT US" subtitle="THE STORY " />
+              <SectionTitle title="ABOUT US" subtitle="WELCOME " />
               <div className="v1_about_us_right_text">
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>
